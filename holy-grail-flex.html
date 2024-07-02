@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #wrap {
+        width: 60%;
+        display: flex;
+        flex-direction: column;        
+      }
+
+      header {
+        background-color: aqua;
+        height: 100px;
+      }
+      section{
+        height: 200px;
+        display: flex;
+      }
+      nav{
+        background-color: blueviolet;
+        flex-grow: 4;
+      }
+      aside{
+        background-color: brown;
+        flex-grow: 2;
+      }
+      footer {
+        height: 100px;
+        background-color: bisque;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>헤더</header>
+      <section>
+        <nav>메뉴</nav>
+        <aside>사이드</aside>
+      </section>
+      <footer>푸터</footer>
+    </div>
+  </body>
+</html>
